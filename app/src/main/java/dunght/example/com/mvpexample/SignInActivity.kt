@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_sign_in.*
 
-class SignIn : AppCompatActivity(), SignInView {
+class SignInActivity : AppCompatActivity(), SignInView {
 
     private lateinit var mSignInPresenterImpl: SignInPresenterImpl
 
